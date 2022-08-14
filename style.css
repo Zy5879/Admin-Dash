@@ -1,7 +1,7 @@
-/* .placeholder {
+.placeholder {
     height: 30px;
     width: 30x;
-} */
+}
 
 .container {
     display: grid;
@@ -10,33 +10,32 @@
 
 }
 
-.header {
+.sidebar {
     background-color: aqua;
     grid-row: 1/7;
 }
 
-.sidebar {
+.header {
     background-color: aquamarine;
 }
 
-.nav {
-    background-color: blueviolet;
-}
-
-.descrip {
-    background-color: darksalmon;
-}
 
 .body {
     background-color: red;
     grid-row: 2 / 7;
-   
 }
 
-.announcements {
-    background-color: green;
+.dash {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 15px;
+    margin-bottom: 40px;
 }
 
-.trending {
-    background-color: brown;
+.side-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 15px;
 }
