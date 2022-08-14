@@ -1,4 +1,42 @@
-.placeholder {
+/* .placeholder {
     height: 30px;
     width: 30x;
+} */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 100vh;
+
+}
+
+.header {
+    background-color: aqua;
+    grid-row: 1/7;
+}
+
+.sidebar {
+    background-color: aquamarine;
+}
+
+.nav {
+    background-color: blueviolet;
+}
+
+.descrip {
+    background-color: darksalmon;
+}
+
+.body {
+    background-color: red;
+    grid-row: 2 / 7;
+   
+}
+
+.announcements {
+    background-color: green;
+}
+
+.trending {
+    background-color: brown;
 }
