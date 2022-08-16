@@ -17,7 +17,9 @@
 
 .header {
     background-color: aquamarine;
-}
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+} 
 
 
 .body {
@@ -39,3 +41,24 @@
     gap: 15px;
     margin-left: 15px;
 }
+
+/* .search-bar ul {
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: 1fr 1fr; */
+    /* display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 15px; */
+/* } */
+
+/* .icons ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+    align-items: center;
+} */
+/* 
+.search-bar input[type='text'] {
+    min-width: 100%;
+}  */
