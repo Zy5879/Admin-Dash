@@ -95,6 +95,29 @@ img {
     justify-content: space-between;
 }
 
+.search {
+    display: flex;
+    gap: 15px;
+    width: 80%;
+}
+
+input {
+    width: min(80%, 800px);
+}
+
+.button {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+   border-radius: 7px;
+   background-color: aqua;
+   font-weight: 800;
+   color: black;
+   font-size: 18px;
+   border: 2px solid aqua;
+}
 /* .article {
     grid-area: section;
 } 
