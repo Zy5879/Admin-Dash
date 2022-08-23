@@ -186,6 +186,11 @@ button {
     background-color: white;
 }
 
+.icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
 /* .main .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -206,10 +211,18 @@ button {
     display: flex;
     align-items: center;
     background-color: white;
+    gap: 1rem;
+    padding-right: 1rem;
 }
 
 .trends {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.image {
+    height: 32px;
+    width: 32px;
+    margin-left: 1rem;
 }
 
 .at {
@@ -218,4 +231,11 @@ button {
 
 .caption {
     font-size: 14px;
+}
+
+.handle {
+   font-size: 12px;
+   line-height: 12px;
+   padding: 0;
+   margin: 0;
 }
