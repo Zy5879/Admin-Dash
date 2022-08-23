@@ -20,8 +20,10 @@ body {
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: 0.8fr 3fr 0.8fr ;
+    grid-template-columns: 0.8fr 3fr 1fr ;
 }
+
+/* Sidebar */
 
 img {
     width: 20px;
@@ -57,19 +59,20 @@ img {
     color: white;
 }
 
+/* Header */
 
 .navbar {
     background-color: var(--navbar-bg);
     grid-column: 2 / 4;
-    display: grid;
     grid-template-rows: 1fr 1fr;
     box-shadow: 16px 32px rgba(0,0,0,0.07);
+    padding: 1.5rem 3rem;
 }
 
 .top {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    margin-bottom: 2.5rem;
 }
 
 .accounts {
@@ -83,12 +86,18 @@ img {
     display: flex;
     align-items: center;
     width: 100%;
-    margin-left: 1rem;
+    margin-right: auto;
 }
 
 .search-bar {
-  width: min(70%,600px);
-  margin-left: 1rem;
+  display: inline-block;
+  border: 0;
+  padding: 0.5rem 1.5rem;
+  margin-left: 1.25rem;
+  border-radius: 5px;
+  width: min(80%, 600px);
+  margin-right: 20px;
+  background-color: lightgray;
 }
 
 .bottom {
@@ -101,55 +110,57 @@ img {
 .tagname {
     display: flex;
     align-items: center;
-    gap: 15px;
-    margin-left: 1rem;
+    gap: 1rem;
 }
 
 .pfp {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
 }
 
+
 .greeting {
-    font-size: 11px;
+    font-size: 10px;
     font-weight: bold;
 }
 
 .bold-name {
-    font-weight: bold;
+    font-size: 13px;
+    font-weight: 800;
 }
 
 .buttons {
     display: flex;
-    gap: 15px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
 }
 
-button {
-    border-radius: 10px;
+.btn {
     background-color: #0ea5e9;
-    border: 1px solid #0ea5e9;
     color: white;
-    width: min(50%, 70px);
-    height: 30px;
+    padding: 0.5rem, 1.8rem;
+    border-radius: 7px;
+    font-size: 18px;
+    border: 1px solid #0ea5e9;
 }
-/* .navbar {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-} */
+
+/* Body */
 
 .main {
     background-color: var(--main-bg);
     grid-column: 2 / 3;
     grid-row: 2 / 4;
-    padding: 0.5rem;
+    padding: 0.5rem 3rem
 }
 
 .announcements {
     background-color: #f1f5f9;
+    margin-right: auto;
 }
 
 .announce > div {
-    padding: 1rem;
+   padding: 1rem;
 }
 
 .announce {
@@ -189,15 +200,8 @@ button {
 .icons {
     display: flex;
     justify-content: flex-end;
-}
-
-/* .main .cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-auto-rows: 350px;
     gap: 2rem;
-} */
-
+}
 
 .announce > div {
     display: grid;
