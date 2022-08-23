@@ -149,7 +149,6 @@ button {
 }
 
 .announce > div {
-    /* margin-top: 2rem; */
     padding: 1rem;
 }
 
@@ -184,18 +183,16 @@ button {
     padding: 2rem;
     border-left: 6px solid #fb923c;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background-color: white;
 }
+
 /* .main .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-auto-rows: 350px;
     gap: 2rem;
-}
-
-
-.cards > div {
-    border: 2px solid black;
 } */
+
 
 .announce > div {
     display: grid;
